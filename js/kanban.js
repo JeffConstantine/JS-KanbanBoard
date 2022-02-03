@@ -37,7 +37,9 @@ const create_item = () => {
       order += 1;
       item.innerHTML = input.value;
       adding = false;
-    } else error.innerHTML = "message";
+    } else {
+      error.innerHTML = message;
+    }
   });
 };
 
