@@ -23,8 +23,8 @@ const create_item = () => {
 };
 
 item.addEventListener('dragstart', () => {
-  
-}
+
+});
 
 document.querySelectorAll('.drop').forEach(element => {
 });
