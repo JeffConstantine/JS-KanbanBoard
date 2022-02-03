@@ -22,5 +22,9 @@ const create_item = () => {
   item.draggable = true;
 };
 
+item.addEventListener('dragstart', () => {
+  
+}
+
 document.querySelectorAll('.drop').forEach(element => {
 });
