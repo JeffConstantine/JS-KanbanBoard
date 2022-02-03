@@ -32,7 +32,7 @@ const create_item = () => {
   save_btn.addEventListener('click', () => {
     error.innerHTML = '';
     if (input.value !== '') {
-      let order = order +1;
+      let order += order;
       item.innerHTML = input.value;
       adding = false;
     }
